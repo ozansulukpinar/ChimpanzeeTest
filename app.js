@@ -1,6 +1,7 @@
 var random;
 var randomArray = [];
 var index = idValue = 0;
+var niveau 1;
 
 drawTable();
 
@@ -48,6 +49,7 @@ $("#StartButton").click(function () {
 
         if (index == 10) {
             alert("Good memory! Congrulations!");
+            niveau++;
             location.reload();
         }
     });
@@ -56,7 +58,7 @@ $("#StartButton").click(function () {
 });
 
 function setABox(){
-    for(var i = 1; i <= 10; i++){
+    for(var i = 1; i <= niveau; i++){
     fillTheBox(i);
     }
 }
