@@ -1,7 +1,7 @@
 var random;
 var randomArray = [];
 var index = idValue = 0;
-var niveau 1;
+var niveau = 1;
 
 drawTable();
 
